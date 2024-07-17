@@ -1,0 +1,22 @@
+.MathJax_SVG {
+    transition: transform 0.25s ease-in-out;
+}
+
+.MathJax_SVG:hover {
+    transform: scale(1.03);
+}
+
+.copyconf {
+    transition: all 0.25s ease-out;
+}
+
+.hoverblue:hover {
+    background-color: #087cd4;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.hoverblue {
+    color: black;
+}

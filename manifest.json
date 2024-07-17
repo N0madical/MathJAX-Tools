@@ -6,14 +6,19 @@
     "description": "Allows users to compatable-copy and preview MathJAX equations",
   
     "icons": {
-      "48": "icons/icon48.png",
-      "96": "icons/icon96.png"
+      "48": "icon48.png",
+      "96": "icon96.png"
     },
   
     "content_scripts": [
       {
-        "matches": ["*"],
-        "js": ["index.js"]
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["index.js"],
+        "css": ["index.css"]
+      },
+      {
+        "matches": ["https://www.desmos.com/calculator/*", "https://www.desmos.com/calculator", "http://www.desmos.com/calculator/*", "http://www.desmos.com/calculator"],
+        "js": ["dinsert.js"]
       }
     ],
 
