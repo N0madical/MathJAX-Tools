@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "MathJAX Tools",
-    "version": "0.1",
+    "name": "MathJax Tools",
+    "version": "1.0",
   
-    "description": "Allows users to compatable-copy and preview MathJAX equations",
+    "description": "Allows users to compatable-copy and preview MathJax equations",
   
     "icons": {
       "48": "icon48.png",

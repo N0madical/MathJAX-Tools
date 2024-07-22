@@ -1,5 +1,5 @@
 //########################################################
-    //Storage.js Javascript package - By Aiden C
+    //Storage.js Javascript package - By Nomadical (Aiden C)
 //########################################################
 
 //Browser Storage object: Handles storing and retreiving browser storage items
@@ -76,7 +76,6 @@ function extentionStorage(name, storageType, defaultValue = []) {
         }
         if(runAfter) {for(self.i = 0; self.i < runAfter.length; self.i++) {
                 try {
-                    console.debug(runAfter)
                     runAfter[self.i]()
                 } catch (error) {
                     console.error("Storage.js: Tried to run invalid function with error\n-----\n", runAfter[self.i], "\n-----\n", error ,"\n-----\nafter getting variable", self.name)

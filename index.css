@@ -7,7 +7,11 @@
 }
 
 .copyconf {
-    transition: all 0.25s ease-out;
+    transition: opacity 0.25s ease-out, top 0.25s ease-out;
+}
+
+.copyedge {
+    transition: opacity 0.25s ease-out, top 0.25s ease-out, left 0.25s ease-out;
 }
 
 .hoverblue:hover {
